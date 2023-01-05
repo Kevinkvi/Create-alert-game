@@ -10,7 +10,10 @@ function ask(question, yes, no) {
   else no();
 }
 function showOk() {
-  let number = prompt("Сколько у тебя друзей?", "");
+  let number;
+  do {
+    number = prompt("Сколько у тебя друзей?");
+  } while (number <= null && number);
   alert("да ты крут!");
   let a = 3,
     b = number;
