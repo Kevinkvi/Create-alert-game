@@ -13,7 +13,7 @@ function showOk() {
   let number;
   do {
     number = prompt("Сколько у тебя друзей?");
-  } while (number <= null && number);
+  } while (number <= 100000 && 0);
   alert("да ты крут!");
   let a = 3,
     b = number;
