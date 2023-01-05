@@ -1,7 +1,4 @@
-(function () {
-  "use strict";
-})();
-
+"use strict";
 alert("Добро пожаловать в игру!");
 let UserName;
 do {
